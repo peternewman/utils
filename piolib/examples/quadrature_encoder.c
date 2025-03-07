@@ -26,7 +26,7 @@
 // state machines to read the two encoders and in the main control loop it can
 // simply ask for the current encoder counts to get the absolute step count. It
 // can also subtract the values from the last sample to check how many steps
-// each wheel as done since the last sample period.
+// each wheel has done since the last sample period.
 //
 // One advantage of this approach is that it requires zero CPU time to keep the
 // encoder count updated and because of that it supports very high step rates.
